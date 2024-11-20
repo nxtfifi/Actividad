@@ -10,3 +10,6 @@ def fibonacci_series(n):
     for i in range(2, n):
         fib.append(fib[-1] + fib[-2])
     return fib
+
+def reverse_list(lst):
+    return lst[::-1]
